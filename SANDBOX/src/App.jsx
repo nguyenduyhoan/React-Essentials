@@ -4,11 +4,11 @@ import UserInput from "./components/UserInput";
 import Results from "./components/Results";
 
 function App() {
-  debugger
+
   const [userInput, setUserInput] = useState({
     initialInvestment: 10000,
     annualInvestment: 1200,
-    expectedRturn: 6,
+    expectedReturn: 6,
     duration: 10,
   });
 
